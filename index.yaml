@@ -3,13 +3,13 @@ entries:
   airflow:
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2021-06-15T17:34:07.847992+03:00"
+    created: "2021-06-15T18:19:52.574713+03:00"
     dependencies:
     - name: airflow
       repository: https://github.com/astronomer/airflow/releases/download/helm-chart%2Fv1.0.1-dev1/
       version: 1.1.0-rc1
     description: Helm chart to deploy the Astronomer Platform Airflow module
-    digest: 46ba10438bdacf4275d871244b1cacc87ad55cb60e48834f1d6aaf9d3a0cdb53
+    digest: fcfd3ad495e299c99840735bb9788ecfbc9395ee35b596a3c9b7b38a452d99c2
     icon: https://airflow.apache.org/docs/apache-airflow/stable/_images/pin_large.png
     keywords:
     - astronomer
@@ -18,4 +18,4 @@ entries:
     urls:
     - https://andriisoldatenko.github.io/helm-repo/airflow-0.19.1.tgz
     version: 0.19.1
-generated: "2021-06-15T17:34:07.837347+03:00"
+generated: "2021-06-15T18:19:52.566147+03:00"
