@@ -16,7 +16,6 @@ entries:
     - airflow
     name: airflow
     urls:
-    - https://internal-helm.astronomer.io/airflow-0.19.1.tgz
     - https://andriisoldatenko.github.io/helm-repo/airflow-0.19.1.tgz
     version: 0.19.1
 generated: "2021-06-15T17:34:07.837347+03:00"
