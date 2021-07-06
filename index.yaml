@@ -16,6 +16,6 @@ entries:
     - airflow
     name: airflow
     urls:
-    - https://andriisoldatenko.github.io/helm-repo/airflow-0.19.1.tgz
-    version: 0.19.1
+    - https://aliotta.github.io/helm-repo/airflow-0.20.0.tgz
+    version: 0.20.0
 generated: "2021-06-15T18:19:52.566147+03:00"
