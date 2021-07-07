@@ -3,7 +3,7 @@ entries:
   airflow:
   - apiVersion: v2
     appVersion: 2.1.0
-    created: "2021-07-06T14:20:21.322301-07:00"
+    created: "2021-07-07T10:01:01.792164-07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -30,13 +30,13 @@ entries:
     version: 1.1.0-rc1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2021-07-06T14:20:21.316559-07:00"
+    created: "2021-07-07T10:01:01.786684-07:00"
     dependencies:
     - name: airflow
       repository: https://github.com/astronomer/airflow/releases/download/oss-helm-chart%2F1.1.0-rc1/
       version: 1.1.0-rc1
     description: Helm chart to deploy the Astronomer Platform Airflow module
-    digest: 5b7a264d3214ae9254f73dba7ad3a5437cde61e9ecb29bfdf21f21bc1674069e
+    digest: aee791aaf1c2cf4a0544cd906c6325de5a4010155b7b6589326df3ed3d1fc583
     icon: https://airflow.apache.org/docs/apache-airflow/stable/_images/pin_large.png
     keywords:
     - astronomer
@@ -48,7 +48,7 @@ entries:
   postgresql:
   - apiVersion: v1
     appVersion: 11.5.0
-    created: "2021-07-06T14:20:21.323974-07:00"
+    created: "2021-07-07T10:01:01.793817-07:00"
     description: Chart for PostgreSQL, an object-relational database management system (ORDBMS) with an emphasis on extensibility and on standards-compliance.
     digest: e3d8f710db745334731a5ed5d0a3b8731bb74109388e4755cc1ef6b9c4b2f288
     home: https://www.postgresql.org/
@@ -71,4 +71,4 @@ entries:
     urls:
     - https://aliotta.github.io/helm-repo/charts/postgresql-6.3.12.tgz
     version: 6.3.12
-generated: "2021-07-06T14:20:21.306802-07:00"
+generated: "2021-07-07T10:01:01.775879-07:00"
