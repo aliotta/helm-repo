@@ -45,7 +45,7 @@ entries:
     - airflow
     name: airflow
     urls:
-    - https://aliotta.github.io/helm-repo/airflow-0.20.0.tar.tgz
+    - https://aliotta.github.io/helm-repo/airflow-0.20.2.tgz
     version: 0.20.2
   postgresql:
   - apiVersion: v1
@@ -74,4 +74,4 @@ entries:
     urls:
     - https://aliotta.github.io/helm-repo/charts/postgresql-6.3.12.tgz
     version: 6.3.12
-generated: "2021-09-15T17:36:15.74418-04:00"
+generated: "2021-09-15T17:37:15.74418-04:00"
