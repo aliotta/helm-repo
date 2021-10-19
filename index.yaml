@@ -1,28 +1,55 @@
 apiVersion: v1
 entries:
   airflow:
+  - apiVersion: v2
+    appVersion: 2.1.4
+    created: "2021-10-18T22:03:04.238637-04:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.5.3
+    description: The official Helm chart to deploy Apache Airflow, a platform to programmatically
+      author, schedule, and monitor workflows
+    digest: 96bce4de0d06df5f556c2800655fb713b23af78432696f61c0bf66e337bc7d9d
+    home: https://airflow.apache.org/
+    icon: https://airflow.apache.org/docs/apache-airflow/stable/_images/pin_large.png
+    keywords:
+    - apache
+    - airflow
+    - workflow
+    - scheduler
+    maintainers:
+    - email: dev@airflow.apache.org
+      name: Apache Airflow PMC
+    name: airflow
+    sources:
+    - https://github.com/apache/airflow
+    type: application
+    urls:
+    - https://YOUR_GITHUB_USER_NAME.github.io/helm-repo/charts/airflow-1.2.0.tgz
+    version: 1.2.0
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2021-09-16T10:54:06.974424-04:00"
+    created: "2021-10-18T22:03:04.229335-04:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: '@stable'
       version: 6.3.12
-    description: Airflow component of Astronomer Platform
-    digest: 5fb04c3cd48eb2da76ea3ef3feebd2860ca61ab482592068e695e20938c98636
-    icon: https://airflow.apache.org/docs/apache-airflow/stable/_images/pin_large.png
+    description: Helm chart to deploy the Astronomer Platform Airflow module
+    digest: 1b52f0d1bd048104013e9891930be675675de03ecd418f58976c2a080ba88448
+    icon: https://www.astronomer.io/static/airflowNewA.png
     keywords:
     - astronomer
-    - airflow
     name: airflow
     urls:
-    - https://aliotta.github.io/helm-repo/airflow-0.20.2.tgz
-    version: 0.20.2
+    - https://YOUR_GITHUB_USER_NAME.github.io/helm-repo/airflow-0.20.1.tgz
+    version: 0.20.1
   postgresql:
   - apiVersion: v1
     appVersion: 11.5.0
-    created: "2021-09-16T10:54:06.976176-04:00"
+    created: "2021-10-18T22:03:04.240339-04:00"
     description: Chart for PostgreSQL, an object-relational database management system
       (ORDBMS) with an emphasis on extensibility and on standards-compliance.
     digest: e3d8f710db745334731a5ed5d0a3b8731bb74109388e4755cc1ef6b9c4b2f288
@@ -44,6 +71,6 @@ entries:
     sources:
     - https://github.com/bitnami/bitnami-docker-postgresql
     urls:
-    - https://aliotta.github.io/helm-repo/charts/postgresql-6.3.12.tgz
+    - https://YOUR_GITHUB_USER_NAME.github.io/helm-repo/charts/postgresql-6.3.12.tgz
     version: 6.3.12
-generated: "2021-09-16T10:54:06.968631-04:00"
+generated: "2021-10-18T22:03:04.201775-04:00"
