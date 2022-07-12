@@ -109,7 +109,7 @@ entries:
           url: https://airflow.apache.org/docs/apache-airflow/2.3.2/_images/context.png
     apiVersion: v2
     appVersion: 2.3.2
-    created: "2022-07-12T16:15:31.609658+05:30"
+    created: "2022-07-12T17:00:14.362428+05:30"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -136,8 +136,24 @@ entries:
     - https://aliotta.github.io/helm-repo/airflow-1.8.0-dev.tgz
     version: 1.8.0-dev
   - apiVersion: v2
+    created: "2022-07-12T17:00:14.353822+05:30"
+    dependencies:
+    - name: airflow
+      repository: https://aliotta.github.io/helm-repo
+      version: 1.8.0-dev
+    description: Helm chart to deploy the Astronomer Platform Airflow module
+    digest: bfac2038e20bf807fa25e656ab565795ba80ca82ccec6f8aa38fb543231e0748
+    icon: https://airflow.apache.org/docs/apache-airflow/stable/_images/pin_large.png
+    keywords:
+    - astronomer
+    - airflow
+    name: airflow
+    urls:
+    - https://aliotta.github.io/helm-repo/airflow-1.6.0-rc3.tgz
+    version: 1.6.0-rc3
+  - apiVersion: v2
     appVersion: 2.0.0
-    created: "2022-07-12T16:15:31.601692+05:30"
+    created: "2022-07-12T17:00:14.016869+05:30"
     dependencies:
     - name: airflow
       repository: https://airflow.apache.org
@@ -154,7 +170,7 @@ entries:
     version: 1.2.0-rc1
   - apiVersion: v2
     appVersion: 2.0.0
-    created: "2022-07-12T16:15:31.592175+05:30"
+    created: "2022-07-12T17:00:14.005969+05:30"
     dependencies:
     - name: airflow
       repository: https://airflow.apache.org
@@ -171,7 +187,7 @@ entries:
     version: 1.1.0-rc1
   - apiVersion: v1
     appVersion: 2.0.0
-    created: "2022-07-12T16:15:31.583614+05:30"
+    created: "2022-07-12T17:00:13.994665+05:30"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -186,4 +202,4 @@ entries:
     urls:
     - https://aliotta.github.io/helm-repo/airflow-1.0.3.tgz
     version: 1.0.3
-generated: "2022-07-12T16:15:31.568139+05:30"
+generated: "2022-07-12T17:00:13.978312+05:30"
